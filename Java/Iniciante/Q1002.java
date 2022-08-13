@@ -19,8 +19,8 @@ public class Q1002 {
 
         double n = 3.14159;
         double raio = sc.nextDouble();
-        double a = n * (raio * raio);
+        double area = n * (raio * raio);
 
-        System.out.println("A=" + String.format("%.4f",a));
+        System.out.println("A=" + String.format("%.4f", area));
     }
 }

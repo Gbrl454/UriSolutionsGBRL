@@ -14,21 +14,21 @@ import java.util.Scanner;
 public class Q1006 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        double a,b,c;
+        double A, B, C;
 
         do {
-            a = sc.nextDouble();
-        } while (a > 10 || a < 0);
+            A = sc.nextDouble();
+        } while (A > 10 || A < 0);
         do {
-            b = sc.nextDouble();
-        } while (b > 10 || b < 0);
+            B = sc.nextDouble();
+        } while (B > 10 || B < 0);
         do {
-            c = sc.nextDouble();
-        } while (c > 10 || c < 0);
+            C = sc.nextDouble();
+        } while (C > 10 || C < 0);
 
-        double media = ( (a * 2) + (b * 3) + (c * 5) )/10;
+        double MEDIA = ((A * 2) + (B * 3) + (C * 5)) / 10;
 
-        System.out.println("MEDIA = " + String.format("%.1f",media));
+        System.out.println("MEDIA = " + String.format("%.1f", MEDIA));
     }
 }
 

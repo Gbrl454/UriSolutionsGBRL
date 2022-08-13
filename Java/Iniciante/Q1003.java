@@ -15,10 +15,10 @@ public class Q1003 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-        int soma = a + b;
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int SOMA = A + B;
 
-        System.out.println("SOMA = " + soma);
+        System.out.println("SOMA = " + SOMA);
     }
 }

@@ -15,12 +15,12 @@ public class Q1008 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
-        int hor = sc.nextInt();
-        double phor = sc.nextDouble();
+        int htrab = sc.nextInt();
+        double vtrab = sc.nextDouble();
 
-        double sal = phor * hor;
+        double sal = vtrab * htrab;
 
         System.out.println("NUMBER = " + num);
-        System.out.println("SALARY = U$ " + String.format("%.2f",sal));
+        System.out.println("SALARY = U$ " + String.format("%.2f", sal));
     }
 }
