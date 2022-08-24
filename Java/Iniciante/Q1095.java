@@ -9,8 +9,6 @@ package UriSolutionsGBRL.Java.Iniciante;
 //        Saída
 //        Imprima a sequencia conforme exemplo abaixo
 
-import java.util.Scanner;
-
 public class Q1095 {
     public static void main(String[] args) {
         int i = -2, j = 65;
@@ -22,9 +20,3 @@ public class Q1095 {
         }
     }
 }
-
-
-
-
-
-// REVISAR

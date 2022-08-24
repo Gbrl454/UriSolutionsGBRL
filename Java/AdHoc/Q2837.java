@@ -87,9 +87,3 @@ public class Q2837 {
         System.out.println(result);
     }
 }
-
-
-
-
-
-// REVISAR

@@ -33,8 +33,3 @@ public class Q2760 {
         System.out.printf("%.10s%.10s%.10s%n", v2, v3, v4);
     }
 }
-
-
-
-
-// REVISAR

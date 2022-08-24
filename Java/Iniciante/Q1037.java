@@ -33,8 +33,3 @@ public class Q1037 {
         }
     }
 }
-
-
-
-
-// REVISAR

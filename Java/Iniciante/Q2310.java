@@ -57,12 +57,7 @@ public class Q2310 {
 
 class Jogador {
     private String nome;
-    private int tSaqu;
-    private int tBloq;
-    private int tAtaq;
-    private int saqu;
-    private int bloq;
-    private int ataq;
+    private int tSaqu, tBloq, tAtaq, saqu, bloq, ataq;
 
     public Jogador(String nome, int tSaqu, int tBloq, int tAtaq, int saqu, int bloq, int ataq) {
         this.nome = nome;

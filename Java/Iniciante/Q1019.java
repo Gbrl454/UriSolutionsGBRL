@@ -17,18 +17,12 @@ public class Q1019 {
 
         int n = sc.nextInt();
 
-        int m = n/60;
-        n -= m*60;
+        int m = n / 60;
+        n -= m * 60;
 
-        int h = m/60;
-        m -= h*60;
+        int h = m / 60;
+        m -= h * 60;
 
-        System.out.println(h+":"+m+":"+n);
+        System.out.println(h + ":" + m + ":" + n);
     }
 }
-
-
-
-
-
-// REVISAR
