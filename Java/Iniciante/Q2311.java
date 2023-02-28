@@ -11,7 +11,7 @@ package UriSolutionsGBRL.Java.Iniciante;
 import java.util.Scanner;
 
 public class Q2311 {
-    public static void main(String[] args) {
+    public static void main (String[] args) {
         Scanner sc = new Scanner(System.in);
         new Competicao(sc.nextInt(), sc);
     }
@@ -19,7 +19,7 @@ public class Q2311 {
 
 class Competicao {
 
-    public Competicao(int n, Scanner sc) {
+    public Competicao (int n, Scanner sc) {
 
         for (int i = 0; i < n; i++) {
 
@@ -50,20 +50,20 @@ class Competidor {
     CalcularNota calcNota;
     private double grau;
 
-    public Competidor(String nome) {
+    public Competidor (String nome) {
         this.nome = nome;
     }
 
-    public void setGrau(double grau) {
+    public void setGrau (double grau) {
         this.grau = grau;
     }
 
-    public void setNotas(double[] notas) {
+    public void setNotas (double[] notas) {
         calcNota = new CalcularNota(notas);
     }
 
     @Override
-    public String toString() {
+    public String toString () {
         return nome + " " + String.format("%.2f", (calcNota.getNota() * grau));
     }
 }
@@ -72,11 +72,11 @@ class CalcularNota {
     double nota = 0;
     double[] notas;
 
-    public CalcularNota(double[] notas) {
+    public CalcularNota (double[] notas) {
         this.notas = notas;
     }
 
-    public double getNota() {
+    public double getNota () {
         for (double v : notas) {
             nota += v;
         }
@@ -84,7 +84,7 @@ class CalcularNota {
         return nota;
     }
 
-    private double max(double[] valores) {
+    private double max (double[] valores) {
         double max = 0;
         for (double valore : valores) {
             if (valore > max) {
@@ -94,7 +94,7 @@ class CalcularNota {
         return max;
     }
 
-    private double min(double[] valores) {
+    private double min (double[] valores) {
         double min = valores[0];
         for (double valore : valores) {
             if (valore < min) {

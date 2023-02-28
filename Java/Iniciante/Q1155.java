@@ -12,7 +12,7 @@ package UriSolutionsGBRL.Java.Iniciante;
 //        O valor deve ser impresso com dois dígitos após o ponto decimal.
 
 public class Q1155 {
-    public static void main(String[] args) {
+    public static void main (String[] args) {
         double S = 1;
 
         for (int i = 2; i <= 100; i++) {

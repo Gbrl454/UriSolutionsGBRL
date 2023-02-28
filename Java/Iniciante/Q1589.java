@@ -14,7 +14,7 @@ package UriSolutionsGBRL.Java.Iniciante;
 import java.util.Scanner;
 
 public class Q1589 {
-    public static void main(String[] args) {
+    public static void main (String[] args) {
         Scanner sc = new Scanner(System.in);
         new Teste(sc.nextInt(), sc);
     }
@@ -23,7 +23,7 @@ public class Q1589 {
 class Teste {
     Scanner sc;
 
-    public Teste(int casos, Scanner sc) {
+    public Teste (int casos, Scanner sc) {
         this.sc = sc;
 
         for (int i = 0; i < casos; i++) {
@@ -35,11 +35,11 @@ class Teste {
 class Cabo {
     int raio;
 
-    public Cabo(int raio) {
+    public Cabo (int raio) {
         this.raio = raio;
     }
 
-    public int getRaio() {
+    public int getRaio () {
         return raio;
     }
 }
@@ -47,7 +47,7 @@ class Cabo {
 class Concuite {
     Cabo cabo1, cabo2;
 
-    public Concuite(int raioCabo1, int raioCabo2) {
+    public Concuite (int raioCabo1, int raioCabo2) {
         cabo1 = new Cabo(raioCabo1);
         cabo2 = new Cabo(raioCabo2);
         System.out.println(cabo1.getRaio() + cabo2.getRaio());

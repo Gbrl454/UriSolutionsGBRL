@@ -12,7 +12,7 @@ package UriSolutionsGBRL.Java.Iniciante;
 import java.util.Scanner;
 
 public class Q2310 {
-    public static void main(String[] args) {
+    public static void main (String[] args) {
         Scanner sc = new Scanner(System.in);
         int n;
 
@@ -59,7 +59,7 @@ class Jogador {
     private String nome;
     private int tSaqu, tBloq, tAtaq, saqu, bloq, ataq;
 
-    public Jogador(String nome, int tSaqu, int tBloq, int tAtaq, int saqu, int bloq, int ataq) {
+    public Jogador (String nome, int tSaqu, int tBloq, int tAtaq, int saqu, int bloq, int ataq) {
         this.nome = nome;
         this.tSaqu = tSaqu;
         this.tBloq = tBloq;
@@ -69,27 +69,27 @@ class Jogador {
         this.ataq = ataq;
     }
 
-    public int gettSaqu() {
+    public int gettSaqu () {
         return tSaqu;
     }
 
-    public int gettBloq() {
+    public int gettBloq () {
         return tBloq;
     }
 
-    public int gettAtaq() {
+    public int gettAtaq () {
         return tAtaq;
     }
 
-    public int getSaqu() {
+    public int getSaqu () {
         return saqu;
     }
 
-    public int getBloq() {
+    public int getBloq () {
         return bloq;
     }
 
-    public int getAtaq() {
+    public int getAtaq () {
         return ataq;
     }
 }
@@ -101,13 +101,13 @@ class Jogo {
 
     private double pS, pB, pA;
 
-    public Jogo(Jogador[] jogadores) {
+    public Jogo (Jogador[] jogadores) {
         this.jogadores = jogadores;
         calcular();
         mensagem();
     }
 
-    public void calcular() {
+    public void calcular () {
         for (Jogador jg : jogadores) {
             tS += jg.gettSaqu();
             tB += jg.gettBloq();
@@ -121,7 +121,7 @@ class Jogo {
         pA = ((double) aA / tA) * 100;
     }
 
-    public void mensagem() {
+    public void mensagem () {
         System.out.println("Pontos de Saque: " + String.format("%.2f", pS) + " %.");
         System.out.println("Pontos de Bloqueio: " + String.format("%.2f", pB) + " %.");
         System.out.println("Pontos de Ataque: " + String.format("%.2f", pA) + " %.");

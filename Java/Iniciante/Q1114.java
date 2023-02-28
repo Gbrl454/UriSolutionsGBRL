@@ -12,7 +12,7 @@ package UriSolutionsGBRL.Java.Iniciante;
 import java.util.Scanner;
 
 public class Q1114 {
-    public static void main(String[] args) {
+    public static void main (String[] args) {
         Scanner sc = new Scanner(System.in);
 
         int senha = sc.nextInt();

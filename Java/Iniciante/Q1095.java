@@ -10,7 +10,7 @@ package UriSolutionsGBRL.Java.Iniciante;
 //        Imprima a sequencia conforme exemplo abaixo
 
 public class Q1095 {
-    public static void main(String[] args) {
+    public static void main (String[] args) {
         int i = -2, j = 65;
 
         while (j > 0) {

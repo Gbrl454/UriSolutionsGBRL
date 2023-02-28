@@ -11,7 +11,7 @@ package UriSolutionsGBRL.Java.Iniciante;
 import java.util.Scanner;
 
 public class Q2708 {
-    public static void main(String[] args) {
+    public static void main (String[] args) {
         Viajem viajem = new Viajem();
         System.out.println(viajem);
     }
@@ -24,7 +24,7 @@ class Viajem {
 
     Scanner sc = new Scanner(System.in);
 
-    public Viajem() {
+    public Viajem () {
         do {
             mov = sc.next();
             switch (mov) {
@@ -43,14 +43,14 @@ class Viajem {
         } while (loop);
     }
 
-    public int pegarT() {
+    public int pegarT () {
         int t;
         do t = sc.nextInt(); while (t < 0 || t > 20);
         return t;
     }
 
     @Override
-    public String toString() {
+    public String toString () {
         return tTuristas + "\n" + tJipes;
     }
 
